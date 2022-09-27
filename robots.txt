@@ -1,0 +1,7 @@
+user-agent: *
+disallow: 
+
+User-agent: YandexBot
+Disallow: 
+Host: www.freshnessykt.ru
+Sitemap: https://freshnessykt.ru/sitemap.xml
