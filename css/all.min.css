@@ -4776,9 +4776,14 @@ header .sub-title {
   background-position: 0 100%;
 }
 
+.video .right-side {
+  min-width: 400px;
+}
+
 .video-wrapp {
   display: grid;
-  grid-template-columns: 60% 40%;
+
+  grid-template-columns: 400px min-content;
   padding: 77px 8% 0;
   padding-bottom: 50px;
 }
@@ -4807,14 +4812,10 @@ header .sub-title {
   margin-top: 20px;
 }
 
-.video .left-side {
-  margin-left: auto;
+.video video {
+  aspect-ratio: 9 / 16;
   width: 100%;
-}
-
-.video iframe {
-  aspect-ratio: 16/9;
-  width: 100%;
+  display: block;
 }
 
 .video .sub-title {
@@ -5632,6 +5633,10 @@ footer {
     max-width: 100%;
     padding-left: unset;
     text-align: center;
+  }
+
+  .video .right-side {
+    min-width: 320px;
   }
 
   .custom-select-container {
